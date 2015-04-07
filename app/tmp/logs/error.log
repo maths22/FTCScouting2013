@@ -1,0 +1,338 @@
+2013-03-22 15:43:41 Error: [NotFoundException] Invalid tournament
+#0 [internal function]: TournamentsController->view('4')
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(TournamentsController), Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(TournamentsController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-03-22 15:43:55 Error: [NotFoundException] Invalid tournament
+#0 [internal function]: TournamentsController->view()
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(TournamentsController), Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(TournamentsController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-03-22 15:44:22 Error: [NotFoundException] Invalid tournament
+#0 [internal function]: TournamentsController->view('4')
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(TournamentsController), Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(TournamentsController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-03-22 15:45:28 Error: [NotFoundException] Invalid tournament
+#0 [internal function]: TournamentsController->view('4')
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(TournamentsController), Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(TournamentsController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-03-22 15:45:31 Error: [NotFoundException] Invalid tournament
+#0 [internal function]: TournamentsController->view('4')
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(TournamentsController), Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(TournamentsController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-23 21:33:43 Error: [MissingControllerException] Controller class RedController could not be found.
+#0 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-23 21:33:48 Error: [MissingControllerException] Controller class LiveScoutingReportsredController could not be found.
+#0 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-23 21:35:17 Error: Fatal Error (4): syntax error, unexpected ')' in [/usr/web/beastiebots.org/scouting/app/View/LiveScoutingReports/red.ctp, line 7]
+2013-04-23 21:35:17 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/web/beasti...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/web/beasti...', 7, Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/web/beasti...', 7, Array)
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-23 21:36:08 Error: [MissingControllerException] Controller class LiveScoutingReportsController could not be found.
+#0 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-23 21:38:04 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php, line 80]
+2013-04-23 21:38:04 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/web/beasti...', 80)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/web/beasti...', 80, Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/web/beasti...', 80, Array)
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-23 21:43:10 Error: Fatal Error (4): syntax error, unexpected ';' in [/usr/web/beastiebots.org/scouting/app/View/LiveScoutingReports/red.ctp, line 8]
+2013-04-23 21:43:10 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/web/beasti...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/web/beasti...', 8, Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/web/beasti...', 8, Array)
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-23 21:43:14 Error: Fatal Error (4): syntax error, unexpected ';' in [/usr/web/beastiebots.org/scouting/app/View/LiveScoutingReports/red.ctp, line 8]
+2013-04-23 21:43:14 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/web/beasti...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/web/beasti...', 8, Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/web/beasti...', 8, Array)
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-23 21:43:27 Error: Fatal Error (4): syntax error, unexpected ';' in [/usr/web/beastiebots.org/scouting/app/View/LiveScoutingReports/red.ctp, line 8]
+2013-04-23 21:43:27 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/web/beasti...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/web/beasti...', 8, Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/web/beasti...', 8, Array)
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-23 21:43:57 Error: Fatal Error (4): syntax error, unexpected ';' in [/usr/web/beastiebots.org/scouting/app/View/LiveScoutingReports/red.ctp, line 8]
+2013-04-23 21:43:57 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/web/beasti...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/web/beasti...', 8, Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/web/beasti...', 8, Array)
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-23 21:44:00 Error: Fatal Error (4): syntax error, unexpected ';' in [/usr/web/beastiebots.org/scouting/app/View/LiveScoutingReports/red.ctp, line 8]
+2013-04-23 21:44:00 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/web/beasti...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/web/beasti...', 8, Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/web/beasti...', 8, Array)
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-23 21:44:06 Error: Fatal Error (4): syntax error, unexpected ';' in [/usr/web/beastiebots.org/scouting/app/View/LiveScoutingReports/red.ctp, line 8]
+2013-04-23 21:44:06 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/web/beasti...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/web/beasti...', 8, Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/web/beasti...', 8, Array)
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-23 21:45:45 Error: Fatal Error (4): syntax error, unexpected ';' in [/usr/web/beastiebots.org/scouting/app/View/LiveScoutingReports/red.ctp, line 9]
+2013-04-23 21:45:45 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/web/beasti...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/web/beasti...', 9, Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/web/beasti...', 9, Array)
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-23 21:45:57 Error: Fatal Error (4): syntax error, unexpected ';' in [/usr/web/beastiebots.org/scouting/app/View/LiveScoutingReports/red.ctp, line 9]
+2013-04-23 21:45:57 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/web/beasti...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/web/beasti...', 9, Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/web/beasti...', 9, Array)
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-23 21:57:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-23 22:09:18 Error: [MissingViewException] View file "/usr/web/beastiebots.org/scouting/app/View/LiveScoutingReports/red.ctp" is missing.
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-23 22:12:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-23 22:30:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`beastiebots`.`live_scouting_reports`, CONSTRAINT `fk_live_scoutings_teams1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `be...', Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `be...')
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Model.php(1734): DboSource->create(Object(LiveScoutingReport), Array, Array)
+#4 /usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php(89): Model->save(Array)
+#5 [internal function]: LiveScoutingReportsController->red('1')
+#6 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LiveScoutingReportsController), Array)
+#7 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#9 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-23 22:31:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`beastiebots`.`live_scouting_reports`, CONSTRAINT `fk_live_scoutings_teams1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `be...', Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `be...')
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Model.php(1734): DboSource->create(Object(LiveScoutingReport), Array, Array)
+#4 /usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php(90): Model->save(Array)
+#5 [internal function]: LiveScoutingReportsController->red('1')
+#6 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LiveScoutingReportsController), Array)
+#7 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#9 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-23 23:04:55 Error: [MissingControllerException] Controller class LiveScoutingReportsController could not be found.
+#0 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-23 23:05:16 Error: Fatal Error (4): syntax error, unexpected ')' in [/usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php, line 125]
+2013-04-23 23:05:16 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/web/beasti...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/web/beasti...', 125, Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/web/beasti...', 125, Array)
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-23 23:10:05 Error: [MissingControllerException] Controller class LiveScoutingReportController could not be found.
+#0 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 00:25:00 Error: [MissingActionException] Action LiveScoutingReportsController::blue() could not be found.
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-24 00:25:29 Error: [MissingActionException] Action LiveScoutingReportsController::blue() could not be found.
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 14:14:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`beastiebots`.`live_scouting_reports`, CONSTRAINT `fk_live_scoutings_teams1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `be...', Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `be...')
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Model.php(1734): DboSource->create(Object(LiveScoutingReport), Array, Array)
+#4 /usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php(49): Model->save(Array)
+#5 [internal function]: LiveScoutingReportsController->add()
+#6 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LiveScoutingReportsController), Array)
+#7 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#9 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-25 14:14:14 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`beastiebots`.`live_scouting_reports`, CONSTRAINT `fk_live_scoutings_teams1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `be...', Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `be...')
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Model.php(1734): DboSource->create(Object(LiveScoutingReport), Array, Array)
+#4 /usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php(49): Model->save(Array)
+#5 [internal function]: LiveScoutingReportsController->add()
+#6 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LiveScoutingReportsController), Array)
+#7 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#9 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-25 14:14:32 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`beastiebots`.`live_scouting_reports`, CONSTRAINT `fk_live_scoutings_teams1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `be...', Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `be...')
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Model.php(1734): DboSource->create(Object(LiveScoutingReport), Array, Array)
+#4 /usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php(49): Model->save(Array)
+#5 [internal function]: LiveScoutingReportsController->add()
+#6 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LiveScoutingReportsController), Array)
+#7 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#9 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-25 14:14:49 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`beastiebots`.`live_scouting_reports`, CONSTRAINT `fk_live_scoutings_teams1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `be...', Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `be...')
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Model.php(1734): DboSource->create(Object(LiveScoutingReport), Array, Array)
+#4 /usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php(49): Model->save(Array)
+#5 [internal function]: LiveScoutingReportsController->add()
+#6 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LiveScoutingReportsController), Array)
+#7 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#9 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-25 14:54:29 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`beastiebots`.`live_scouting_reports`, CONSTRAINT `fk_live_scoutings_teams1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `be...', Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `be...')
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Model.php(1734): DboSource->create(Object(LiveScoutingReport), Array, Array)
+#4 /usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php(49): Model->save(Array)
+#5 [internal function]: LiveScoutingReportsController->add()
+#6 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LiveScoutingReportsController), Array)
+#7 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#9 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-25 14:54:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`beastiebots`.`live_scouting_reports`, CONSTRAINT `fk_live_scoutings_teams1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `be...', Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `be...')
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Model.php(1734): DboSource->create(Object(LiveScoutingReport), Array, Array)
+#4 /usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php(49): Model->save(Array)
+#5 [internal function]: LiveScoutingReportsController->add()
+#6 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LiveScoutingReportsController), Array)
+#7 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#9 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-25 14:54:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`beastiebots`.`live_scouting_reports`, CONSTRAINT `fk_live_scoutings_teams1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('UPDATE `beastie...', Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/Database/Mysql.php(378): DboSource->execute('UPDATE `beastie...')
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Model.php(1723): Mysql->update(Object(LiveScoutingReport), Array, Array)
+#4 /usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php(221): Model->save(Array)
+#5 [internal function]: LiveScoutingReportsController->edit('56')
+#6 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LiveScoutingReportsController), Array)
+#7 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#9 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-25 14:54:56 Error: [NotFoundException] Invalid tournament
+#0 [internal function]: TournamentsController->view('2')
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(TournamentsController), Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(TournamentsController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-25 14:55:05 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`beastiebots`.`live_scouting_reports`, CONSTRAINT `fk_live_scoutings_teams1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('UPDATE `beastie...', Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/Database/Mysql.php(378): DboSource->execute('UPDATE `beastie...')
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Model.php(1723): Mysql->update(Object(LiveScoutingReport), Array, Array)
+#4 /usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php(221): Model->save(Array)
+#5 [internal function]: LiveScoutingReportsController->edit('56')
+#6 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LiveScoutingReportsController), Array)
+#7 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#9 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-25 14:55:08 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`beastiebots`.`live_scouting_reports`, CONSTRAINT `fk_live_scoutings_teams1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('UPDATE `beastie...', Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/Database/Mysql.php(378): DboSource->execute('UPDATE `beastie...')
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Model.php(1723): Mysql->update(Object(LiveScoutingReport), Array, Array)
+#4 /usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php(221): Model->save(Array)
+#5 [internal function]: LiveScoutingReportsController->edit('56')
+#6 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LiveScoutingReportsController), Array)
+#7 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#9 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-25 14:55:16 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`beastiebots`.`live_scouting_reports`, CONSTRAINT `fk_live_scoutings_teams1` FOREIGN KEY (`team_id`) REFERENCES `teams` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('UPDATE `beastie...', Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Datasource/Database/Mysql.php(378): DboSource->execute('UPDATE `beastie...')
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Model/Model.php(1723): Mysql->update(Object(LiveScoutingReport), Array, Array)
+#4 /usr/web/beastiebots.org/scouting/app/Controller/LiveScoutingReportsController.php(221): Model->save(Array)
+#5 [internal function]: LiveScoutingReportsController->edit('56')
+#6 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LiveScoutingReportsController), Array)
+#7 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LiveScoutingReportsController), Object(CakeRequest), Object(CakeResponse))
+#9 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-25 15:31:10 Error: [NotFoundException] Invalid tournament
+#0 [internal function]: TournamentsController->view('2')
+#1 /usr/web/beastiebots.org/scouting/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(TournamentsController), Array)
+#2 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /usr/web/beastiebots.org/scouting/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(TournamentsController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/web/beastiebots.org/scouting/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-07 16:34:37 Error: [NotFoundException] Invalid tournament
+#0 [internal function]: TournamentsController->view('2')
+#1 /usr/web/beastiebots.org/scouting/old/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(TournamentsController), Array)
+#2 /usr/web/beastiebots.org/scouting/old/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /usr/web/beastiebots.org/scouting/old/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(TournamentsController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/web/beastiebots.org/scouting/old/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-07 16:36:11 Error: [NotFoundException] Invalid tournament
+#0 [internal function]: TournamentsController->view('1')
+#1 /usr/web/beastiebots.org/scouting/old/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(TournamentsController), Array)
+#2 /usr/web/beastiebots.org/scouting/old/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /usr/web/beastiebots.org/scouting/old/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(TournamentsController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/web/beastiebots.org/scouting/old/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-07 16:36:14 Error: [MissingActionException] Action TournamentsController::v() could not be found.
+#0 /usr/web/beastiebots.org/scouting/old/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/web/beastiebots.org/scouting/old/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(TournamentsController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/web/beastiebots.org/scouting/old/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
